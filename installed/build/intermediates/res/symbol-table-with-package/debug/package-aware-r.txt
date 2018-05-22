@@ -602,10 +602,12 @@ id blocking
 id bottom
 id button
 id buttonPanel
+id button_shuffle
 id checkbox
 id chronometer
 id collapseActionView
 id contentPanel
+id countdown_timer
 id custom
 id customPanel
 id decor_content_parent
@@ -649,6 +651,7 @@ id progress_horizontal
 id radio
 id right_icon
 id right_side
+id score
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -688,6 +691,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id top_line
 id uniform
 id up
 id useLogo
@@ -772,7 +776,9 @@ string app_name
 string goodbye_instant_world
 string hello_instant_world
 string nothing_to_see
+string score
 string search_menu_title
+string shuffle
 string status_bar_notification_info_overflow
 string submit
 string title_activity_goodbye

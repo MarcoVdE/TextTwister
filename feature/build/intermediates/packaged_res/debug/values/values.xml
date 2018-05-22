@@ -10,6 +10,8 @@
     <string name="goodbye_instant_world">Goodbye instant World!</string>
     <string name="hello_instant_world">Hello instant World!</string>
     <string name="nothing_to_see">Nothing to see here, press back.</string>
+    <string name="score">Score:</string>
+    <string name="shuffle">shuffle</string>
     <string name="submit">Submit</string>
     <string name="title_activity_goodbye">Goodbye Activity</string>
     <string name="title_activity_hello">Hello Activity</string>

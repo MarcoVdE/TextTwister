@@ -438,6 +438,7 @@
     <string name="nothing_to_see">Nothing to see here, press back.</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="submit">Submit</string>
     <string name="title_activity_goodbye">Goodbye Activity</string>
     <string name="title_activity_hello">Hello Activity</string>
     <string name="title_text_twister">Text Twister</string>

@@ -5,8 +5,12 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3be07da5-acb0-4044-8705-089e4c025dd7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/Timer.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" />
@@ -27,16 +31,39 @@
       <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/graphics/drawable/animated/R.java" />
       <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/android/support/v7/appcompat/R.java" />
       <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/android/instantapps/samples/hello/feature/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/google/android/instantapps/samples/hello/feature/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/compat/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/compat/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/coreui/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/coreutils/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/fragment/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/graphics/drawable/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/graphics/drawable/animated/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/android/support/v7/appcompat/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/com/google/android/instantapps/samples/hello/feature/R.java" afterPath="$PROJECT_DIR$/feature/build/generated/not_namespaced_r_class_sources/debugFeature/processDebugFeatureResources/r/com/google/android/instantapps/samples/hello/feature/R.java" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/blame/res/feature/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/feature/build/intermediates/blame/res/feature/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/blame/res/feature/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/feature/build/intermediates/blame/res/feature/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/blame/res/feature/debug/single/debug.json" afterPath="$PROJECT_DIR$/feature/build/intermediates/blame/res/feature/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/mergeDebugFeatureResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/mergeDebugFeatureResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/mergeDebugFeatureResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/mergeDebugFeatureResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/mergeDebugFeatureResources/merger.xml" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/mergeDebugFeatureResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugFeature/tmp/debugFeature/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugFeature/tmp/debugFeature/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugFeature/tmp/debugFeature/zip-cache/3M9e8ef2NvD8yQKElk449gYEBAU=" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugFeature/tmp/debugFeature/zip-cache/3M9e8ef2NvD8yQKElk449gYEBAU=" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/feature/build/intermediates/incremental/packageDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="$PROJECT_DIR$/feature/build/intermediates/intermediate-jars/debug/classes.jar" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$id.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$integer.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$layout.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$layout.class" />
@@ -44,11 +71,51 @@
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$string.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$style.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$style.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$styleable.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$id.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$integer.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$integer.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$layout.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$mipmap.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$mipmap.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$string.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$style.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$styleable.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" afterPath="$PROJECT_DIR$/feature/build/intermediates/javac/debugFeature/compileDebugFeatureJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/packaged_res/debug/layout/text_twister.xml" afterPath="$PROJECT_DIR$/feature/build/intermediates/packaged_res/debug/layout/text_twister.xml" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/packaged_res/debug/values/values.xml" afterPath="$PROJECT_DIR$/feature/build/intermediates/packaged_res/debug/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/processed_res/debugFeature/processDebugFeatureResources/out/resources-debugFeature.ap_" afterPath="$PROJECT_DIR$/feature/build/intermediates/processed_res/debugFeature/processDebugFeatureResources/out/resources-debugFeature.ap_" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/res/merged/feature/debug/layout_text_twister.xml.flat" afterPath="$PROJECT_DIR$/feature/build/intermediates/res/merged/feature/debug/layout_text_twister.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/res/merged/feature/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/feature/build/intermediates/res/merged/feature/debug/values_values.arsc.flat" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/feature/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/res/symbol-table-with-package/feature/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/feature/build/intermediates/res/symbol-table-with-package/feature/debug/package-aware-r.txt" />
       <change beforePath="$PROJECT_DIR$/feature/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/feature/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/symbols/feature/debug/R.txt" afterPath="$PROJECT_DIR$/feature/build/intermediates/symbols/feature/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/compat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/coreui/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/coreutils/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/fragment/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/graphics/drawable/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$id.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$integer.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$layout.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$mipmap.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$mipmap.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$string.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$style.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$styleable.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexBuilder/feature/debug/44/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexMerger/feature/debug/0/classes.dex" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexMerger/feature/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexMerger/feature/debug/__content__.json" afterPath="$PROJECT_DIR$/feature/build/intermediates/transforms/dexMerger/feature/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/feature/build/outputs/apk/feature/debug/feature-debug.apk" afterPath="$PROJECT_DIR$/feature/build/outputs/apk/feature/debug/feature-debug.apk" />
       <change beforePath="$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.java" afterPath="$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.java" />
       <change beforePath="$PROJECT_DIR$/feature/src/main/res/layout/text_twister.xml" afterPath="$PROJECT_DIR$/feature/src/main/res/layout/text_twister.xml" />
       <change beforePath="$PROJECT_DIR$/feature/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/feature/src/main/res/values/strings.xml" />
@@ -65,12 +132,19 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/installed/build/intermediates/blame/res/debug/multi-v2/values.json" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/installed/build/intermediates/build-info/debug/build-info.xml" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/compat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreui/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/coreutils/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/fragment/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/graphics/drawable/animated/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/R$id.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/R$integer.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/R$layout.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/R$layout.class" />
@@ -85,29 +159,43 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/R$style.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/R$style.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/R$styleable.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental-verifier/debug/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/xuiaLrPZifBcnJ5xSlZSh1_wAy0=" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/xuiaLrPZifBcnJ5xSlZSh1_wAy0=" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/xuiaLrPZifBcnJ5xSlZSh1_wAy0=" afterPath="$PROJECT_DIR$/installed/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/xuiaLrPZifBcnJ5xSlZSh1_wAy0=" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/instant-run-apk/debug/installed-debug.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/instant-run-apk/debug/installed-debug.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/installed/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/compat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreui/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/coreutils/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/fragment/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/graphics/drawable/animated/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/v7/appcompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/R$id.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/R$integer.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/R$layout.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/R$layout.class" />
@@ -124,8 +212,6 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$styleable.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/instantapps/samples/hello/feature/R$styleable.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/manifest-checker/debug/manifest.crc" afterPath="$PROJECT_DIR$/installed/build/intermediates/manifest-checker/debug/manifest.crc" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterPath="$PROJECT_DIR$/installed/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/reload-dex/debug/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/reload-dex/debug/classes.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/res/merged/debug/layout_text_twister.xml.flat" afterPath="$PROJECT_DIR$/installed/build/intermediates/res/merged/debug/layout_text_twister.xml.flat" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/installed/build/intermediates/res/merged/debug/values_values.arsc.flat" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
@@ -133,49 +219,183 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_1.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_4.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_5.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_7.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/installed/build/intermediates/split-apk/debug/slices/slice_8.apk" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$integer.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$integer.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$layout.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$layout.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$mipmap.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$mipmap.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$string.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$style.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$styleable.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$styleable.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$integer.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$integer.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$layout.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$layout.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$mipmap.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$mipmap.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$string.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$style.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$styleable.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$styleable.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$id.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/16.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/18.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/19.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/compat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/android/support/fragment/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/24/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/android/arch/lifecycle/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/25/com/google/android/instantapps/samples/hello/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/coreutils/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/android/support/v7/appcompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/26/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/android/support/graphics/drawable/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/27/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/28/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/GoodbyeActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/HelloActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/HelloActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/29/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/30/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/android/support/coreui/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/31/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/android/support/graphics/drawable/animated/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/32/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/33/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/1/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/2/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/3/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/4/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/6/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/8/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/9/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/10/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/11/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/12/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/13/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/14/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/15/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/16/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/extractJars/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/extractJars/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/extractJars/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/extractJars/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/extractJars/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/extractJars/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/compat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreui/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/coreutils/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/fragment/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/graphics/drawable/animated/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/android/support/v7/appcompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/R$id.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/R$integer.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/R$layout.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/R$layout.class" />
@@ -190,12 +410,13 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/R$style.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/R$style.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/R$styleable.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/0/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/1/com/android/tools/ir/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/1/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$override.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRun/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/compat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/android/support/fragment/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/instantapps/samples/hello/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/instantapps/samples/hello/R$id.class" />
@@ -206,9 +427,12 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/instantapps/samples/hello/R$style.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/instantapps/samples/hello/R$style.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/instantapps/samples/hello/R$styleable.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/instantapps/samples/hello/R$styleable.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/coreutils/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/android/support/v7/appcompat/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/3/android/support/graphics/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$id.class" />
@@ -218,12 +442,17 @@
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$style.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$style.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$styleable.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/5/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/7/android/support/coreui/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$string.class" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/8/android/support/graphics/drawable/animated/R$string.class" />
       <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/installed/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/installed/build/outputs/apk/debug/installed-debug.apk" afterPath="$PROJECT_DIR$/installed/build/outputs/apk/debug/installed-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/instant/build/outputs/apk/debug/instant-debug.zip" afterPath="$PROJECT_DIR$/instant/build/outputs/apk/debug/instant-debug.zip" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -246,26 +475,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HelloActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/HelloActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-              <folding>
-                <element signature="e#1168#1377#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="text_twister.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature/src/main/res/layout/text_twister.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+            <state relative-caret-position="273">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="44" />
               <folding>
-                <element signature="e#2345#2361#0" expanded="true" />
+                <element signature="e#3690#3707#0" expanded="true" />
+                <element signature="e#3974#3990#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -277,23 +494,41 @@
       <file leaf-file-name="TextTwisterActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="482">
+              <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1641#1882#0" expanded="true" />
-                <element signature="e#1881#1882#0" expanded="true" />
-                <element signature="e#2438#3081#0" expanded="true" />
-                <element signature="e#3080#3081#0" expanded="true" />
+                <element signature="e#1275#1300#0" expanded="true" />
+                <element signature="e#3604#3845#0" expanded="true" />
+                <element signature="e#3844#3845#0" expanded="true" />
+                <element signature="e#4415#4561#0" expanded="true" />
+                <element signature="e#4560#4561#0" expanded="true" />
+                <element signature="e#4935#5215#0" expanded="true" />
+                <element signature="e#5214#5215#0" expanded="true" />
+                <element signature="e#5566#5811#0" expanded="true" />
+                <element signature="e#5810#5811#0" expanded="true" />
+                <element signature="e#6070#6325#0" expanded="true" />
+                <element signature="e#6324#6325#0" expanded="true" />
+                <element signature="e#6487#6512#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature/src/main/res/mipmap-hdpi/ic_launcher.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -5595,6 +5830,7 @@
         <option value="$PROJECT_DIR$/feature/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/feature/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/feature/src/main/res/layout/text_twister.xml" />
+        <option value="$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/Timer.java" />
         <option value="$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.java" />
       </list>
     </option>
@@ -5916,7 +6152,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -5950,8 +6186,8 @@
         <state relative-caret-position="378">
           <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding>
-            <element signature="e#1168#1377#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1168#1377#0" expanded="false" />
+            <element signature="e#1376#1377#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5986,11 +6222,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature/src/main/res/layout/activity_goodbye.xml">
@@ -6036,30 +6267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/HelloActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#1168#1377#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature/src/main/res/layout/text_twister.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-          <folding>
-            <element signature="e#2345#2361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/27.0.1/83c9f094e25516147a1070e7e30db262c6918528/appcompat-v7-27.0.1-sources.jar!/android/support/v7/app/AlertDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -6071,16 +6278,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/feature/src/main/res/mipmap-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/HelloActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#1168#1377#0" expanded="false" />
+            <element signature="e#1376#1377#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature/src/main/res/layout/text_twister.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="44" />
+          <folding>
+            <element signature="e#3690#3707#0" expanded="true" />
+            <element signature="e#3974#3990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feature/src/main/java/com/google/android/instantapps/samples/hello/feature/TextTwisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        <state relative-caret-position="482">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1641#1882#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#2438#3081#0" expanded="true" />
-            <element signature="e#3080#3081#0" expanded="true" />
+            <element signature="e#1275#1300#0" expanded="true" />
+            <element signature="e#3604#3845#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="e#4415#4561#0" expanded="true" />
+            <element signature="e#4560#4561#0" expanded="true" />
+            <element signature="e#4935#5215#0" expanded="true" />
+            <element signature="e#5214#5215#0" expanded="true" />
+            <element signature="e#5566#5811#0" expanded="true" />
+            <element signature="e#5810#5811#0" expanded="true" />
+            <element signature="e#6070#6325#0" expanded="true" />
+            <element signature="e#6324#6325#0" expanded="true" />
+            <element signature="e#6487#6512#0" expanded="true" />
           </folding>
         </state>
       </provider>

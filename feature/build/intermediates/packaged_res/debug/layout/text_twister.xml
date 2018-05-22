@@ -21,17 +21,51 @@
                 android:id="@+id/generate_buttons_relative">
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/top_line"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/countdown_timer"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            />
+    </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/guessed_letters_container"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_below="@id/top_line">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/guessed_letters"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -60,10 +94,18 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/shuffle"
+            android:id="@+id/button_shuffle"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/submit"
             android:id="@+id/submit_button"
             android:gravity="center"
             android:layout_marginTop="15dp"/>
+
     </LinearLayout>
 
 
