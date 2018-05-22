@@ -620,6 +620,8 @@ id generate_buttons_1
 id generate_buttons_2
 id generate_buttons_relative
 id goodbye_text
+id guessed_letters
+id guessed_letters_container
 id home
 id homeAsUp
 id icon
@@ -673,6 +675,7 @@ id src_in
 id src_over
 id submenuarrow
 id submit_area
+id submit_button
 id tabMode
 id tag_transition_group
 id text
@@ -771,6 +774,7 @@ string hello_instant_world
 string nothing_to_see
 string search_menu_title
 string status_bar_notification_info_overflow
+string submit
 string title_activity_goodbye
 string title_activity_hello
 string title_text_twister

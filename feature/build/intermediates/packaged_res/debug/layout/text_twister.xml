@@ -20,12 +20,27 @@
                 android:fitsSystemWindows="true"
                 android:id="@+id/generate_buttons_relative">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/guessed_letters_container"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guessed_letters"
+            android:gravity="center"/>
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/generate_buttons_1"
         android:orientation="horizontal"
-        android:gravity="center" >
+        android:gravity="center"
+        android:layout_below="@id/guessed_letters_container">
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,5 +50,21 @@
         android:gravity="center"
         android:layout_below="@id/generate_buttons_1">
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/generate_buttons_2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/submit_button"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
 
 </RelativeLayout>
