@@ -591,7 +591,6 @@ id add
 id alertTitle
 id async
 id blocking
-id button
 id buttonPanel
 id button_shuffle
 id checkbox
@@ -609,7 +608,6 @@ id forever
 id generate_buttons_1
 id generate_buttons_2
 id generate_buttons_relative
-id goodbye_text
 id guessed_letters
 id guessed_letters_container
 id home
@@ -706,8 +704,6 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
-layout activity_goodbye
-layout activity_hello
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -751,18 +747,12 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
-string goodbye_instant_world
-string hello_instant_world
-string nothing_to_see
 string score
 string search_menu_title
 string shuffle
 string status_bar_notification_info_overflow
 string submit
-string title_activity_goodbye
-string title_activity_hello
 string title_text_twister
-string whats_this
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

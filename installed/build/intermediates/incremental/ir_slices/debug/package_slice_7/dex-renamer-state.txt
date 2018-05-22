@@ -1,4 +1,4 @@
-#Tue May 22 20:20:49 CAT 2018
-base.0=C\:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\installed\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+#Tue May 22 21:01:29 CAT 2018
+base.0=C\:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\installed\\build\\intermediates\\transforms\\dexMerger\\debug\\44
 path.0=classes.dex
 renamed.0=classes.dex

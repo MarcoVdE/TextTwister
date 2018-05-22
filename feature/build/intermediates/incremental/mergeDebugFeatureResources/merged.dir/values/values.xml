@@ -433,16 +433,12 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Text Twister</string>
-    <string name="goodbye_instant_world">Goodbye instant World!</string>
-    <string name="hello_instant_world">Hello instant World!</string>
-    <string name="nothing_to_see">Nothing to see here, press back.</string>
+    <string name="score">Score:</string>
     <string name="search_menu_title">Search</string>
+    <string name="shuffle">shuffle</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="submit">Submit</string>
-    <string name="title_activity_goodbye">Goodbye Activity</string>
-    <string name="title_activity_hello">Hello Activity</string>
     <string name="title_text_twister">Text Twister</string>
-    <string name="whats_this">Say Goodbye</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

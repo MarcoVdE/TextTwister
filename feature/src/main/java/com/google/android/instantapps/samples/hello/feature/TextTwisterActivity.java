@@ -79,7 +79,7 @@ public class TextTwisterActivity extends AppCompatActivity {
             public void onFinish() {
                 countdownTimer.setText("0");
                 builder.setMessage("Time over, your score was: " + score.getText())
-                       .show();
+                        .show();
             }
         }.start();
     }

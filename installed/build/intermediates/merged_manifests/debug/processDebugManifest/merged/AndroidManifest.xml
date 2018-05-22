@@ -21,10 +21,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="27" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
+        android:targetSdkVersion="27" /> <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -50,46 +47,8 @@
 
                 <data android:scheme="https" />
                 <data android:scheme="http" />
-                <data android:host="hello.instantappsample.com" />
+                <data android:host="project.students.com" />
                 <data android:pathPrefix="/text_twister" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.google.android.instantapps.samples.hello.feature.HelloActivity"
-            android:label="@string/title_activity_hello" >
-            <intent-filter
-                android:autoVerify="true"
-                android:order="2" >
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:scheme="https" />
-                <data android:scheme="http" />
-                <data android:host="hello.instantappsample.com" />
-                <data android:pathPrefix="/hello" />
-            </intent-filter>
-
-            <meta-data
-                android:name="default-url"
-                android:value="https://hello.instantappsample.com/hello" />
-        </activity>
-        <activity
-            android:name="com.google.android.instantapps.samples.hello.feature.GoodbyeActivity"
-            android:label="@string/title_activity_goodbye" >
-            <intent-filter
-                android:autoVerify="true"
-                android:order="3" >
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.BROWSABLE" />
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:scheme="https" />
-                <data android:scheme="http" />
-                <data android:host="hello.instantappsample.com" />
-                <data android:pathPrefix="/goodbye" />
             </intent-filter>
         </activity>
 
