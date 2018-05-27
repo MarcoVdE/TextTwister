@@ -48,6 +48,9 @@ dependencies {
     application project(':installed')
 
     implementation "android.arch.persistence.room:runtime:$archRoomVersion"
+    annotationProcessor "android.arch.persistence.room:compiler:$archRoomVersion"
+
+    implementation "com.google.code.gson:gson:$gsonVersion"
 
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$espressoVersion"

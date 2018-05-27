@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun May 27 21:09:13 CAT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\transforms\\dexMerger\\feature\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

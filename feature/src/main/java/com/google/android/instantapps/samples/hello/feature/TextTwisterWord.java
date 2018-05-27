@@ -4,12 +4,18 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
+import android.arch.persistence.room.TypeConverter;
+import android.support.annotation.NonNull;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 import java.util.List;
 
 @Entity(indices = {@Index(value = {"guessChars"}, unique = true)})
 public class TextTwisterWord {
-    @PrimaryKey
+    @PrimaryKey @NonNull
     private String guessWord;
 
     @ColumnInfo(name = "guessChars")
@@ -17,6 +23,12 @@ public class TextTwisterWord {
 
     @ColumnInfo(name = "wordsList")
     private List<String> wordsList;
+
+    @TypeConverter
+    public static List<String> fromString(String value) {
+        Type listType = new TypeToken<List<String>>() {}.getType();
+        return new Gson().fromJson(value, listType);
+    }
 
     public String getGuessWord() {
         return guessWord;
