@@ -5,7 +5,6 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 @Database(entities = {TextTwisterWord.class}, version = 1)
