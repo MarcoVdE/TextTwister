@@ -64,8 +64,7 @@ public class TextTwisterActivity extends AppCompatActivity {
         guessableOptions.add("pepla");
 
         //Creating the database:
-        db = Room.databaseBuilder(getApplicationContext(),
-                AppDatabase.class, "texttwister-db").build();
+//        db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "texttwister-db").build();
 
 //        TextTwisterWord txtWord = new TextTwisterWord();
 //        txtWord.setGuessWord("apple");
@@ -95,15 +94,16 @@ public class TextTwisterActivity extends AppCompatActivity {
 
                 //get all possible words from DB object
 
-                List<TextTwisterWord> txtWordList = db.textTwisterWordInterface().getAll();
+//                List<TextTwisterWord> txtWordList = db.textTwisterWordInterface().getAll();
 
-                String possibilities = "";
-                for(TextTwisterWord textWord: txtWordList) {
-                    possibilities += textWord.getWordsList();
-                }
+//                String possibilities = "";
+//                for(TextTwisterWord textWord: txtWordList) {
+//                    possibilities += textWord.getWordsList();
+//                }
 
-                builder.setMessage("Time over, your score was: " + score.getText() +
-                        "\nPossibilities: " + possibilities)
+                builder.setMessage("Time over, your score was: " + score.getText()
+//                        " +\nPossibilities: " + possibilities
+                            )
                         .show();
             }
         }.start();

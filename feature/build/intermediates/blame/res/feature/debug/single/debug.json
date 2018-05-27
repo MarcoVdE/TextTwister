@@ -24,20 +24,20 @@
         "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
-        "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
-        "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
+        "source": "C:\\Users\\Temporary\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\d57c79053808816f93994740d801c280\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Temporary\\AndroidStudioProjects\\TextTwister\\feature\\build\\intermediates\\res\\merged\\feature\\debug\\color-v23_abc_tint_edittext.xml.flat",
