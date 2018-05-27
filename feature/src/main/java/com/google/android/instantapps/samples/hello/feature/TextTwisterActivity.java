@@ -1,5 +1,6 @@
 package com.google.android.instantapps.samples.hello.feature;
 
+import android.arch.persistence.room.Room;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class TextTwisterActivity extends AppCompatActivity {
@@ -26,6 +28,8 @@ public class TextTwisterActivity extends AppCompatActivity {
 
     TextView countdownTimer;
     AlertDialog.Builder builder;
+
+    AppDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +63,16 @@ public class TextTwisterActivity extends AppCompatActivity {
         guessableOptions.add("apple");
         guessableOptions.add("pepla");
 
+        //Creating the database:
+        db = Room.databaseBuilder(getApplicationContext(),
+                AppDatabase.class, "texttwister-db").build();
+
+//        TextTwisterWord txtWord = new TextTwisterWord();
+//        txtWord.setGuessWord("apple");
+//        txtWord.setWordsList(guessableOptions);
+
+//        db.textTwisterWordInterface().insertAll(txtWord);
+
         //alert dialog builder:
         builder = new AlertDialog.Builder(TextTwisterActivity.this);
 
@@ -78,7 +92,18 @@ public class TextTwisterActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 countdownTimer.setText("0");
-                builder.setMessage("Time over, your score was: " + score.getText())
+
+                //get all possible words from DB object
+
+                List<TextTwisterWord> txtWordList = db.textTwisterWordInterface().getAll();
+
+                String possibilities = "";
+                for(TextTwisterWord textWord: txtWordList) {
+                    possibilities += textWord.getWordsList();
+                }
+
+                builder.setMessage("Time over, your score was: " + score.getText() +
+                        "\nPossibilities: " + possibilities)
                         .show();
             }
         }.start();

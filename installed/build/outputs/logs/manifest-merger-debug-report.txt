@@ -6,11 +6,15 @@ INJECTED from C:\Users\Temporary\AndroidStudioProjects\TextTwister\installed\src
 INJECTED from C:\Users\Temporary\AndroidStudioProjects\TextTwister\installed\src\main\AndroidManifest.xml:17:1-18:62
 MERGED from [:feature] C:\Users\Temporary\AndroidStudioProjects\TextTwister\feature\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\d57c79053808816f93994740d801c280\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\79cc5447a79966261a6c1d5a1cef6155\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\f26d7e94b6a8f9bcf2b4c57f2c8ee843\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\061e72912f75edf83ffcbc33db9362a7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\da495a5074c74285a679a27635a85da7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\7b4608f81f3c27717283afcb41fb6482\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\aa07f3a65677b611d02438de5db27145\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\be5d3a24465b0abf6503d4df04da90ca\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\19daa5a68b904f667ae12114ed5ec65e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\3a4f92c31f416be8019a6a18b845c500\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\061e72912f75edf83ffcbc33db9362a7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\9dd464c4bc8816160e23ecd37d280757\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\fb27b0f108f993f88d15abccc396c80e\AndroidManifest.xml:17:1-30:12
 INJECTED from C:\Users\Temporary\AndroidStudioProjects\TextTwister\installed\src\main\AndroidManifest.xml:17:1-18:62
@@ -38,16 +42,24 @@ MERGED from [:feature] C:\Users\Temporary\AndroidStudioProjects\TextTwister\feat
 MERGED from [:feature] C:\Users\Temporary\AndroidStudioProjects\TextTwister\feature\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\d57c79053808816f93994740d801c280\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.1.aar\d57c79053808816f93994740d801c280\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\79cc5447a79966261a6c1d5a1cef6155\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\79cc5447a79966261a6c1d5a1cef6155\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\f26d7e94b6a8f9bcf2b4c57f2c8ee843\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.1.aar\f26d7e94b6a8f9bcf2b4c57f2c8ee843\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\061e72912f75edf83ffcbc33db9362a7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\061e72912f75edf83ffcbc33db9362a7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\da495a5074c74285a679a27635a85da7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.1.aar\da495a5074c74285a679a27635a85da7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\7b4608f81f3c27717283afcb41fb6482\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.1.aar\7b4608f81f3c27717283afcb41fb6482\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\aa07f3a65677b611d02438de5db27145\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\aa07f3a65677b611d02438de5db27145\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\be5d3a24465b0abf6503d4df04da90ca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\be5d3a24465b0abf6503d4df04da90ca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\19daa5a68b904f667ae12114ed5ec65e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\19daa5a68b904f667ae12114ed5ec65e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\3a4f92c31f416be8019a6a18b845c500\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.1.aar\3a4f92c31f416be8019a6a18b845c500\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\061e72912f75edf83ffcbc33db9362a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.1.aar\061e72912f75edf83ffcbc33db9362a7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\9dd464c4bc8816160e23ecd37d280757\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.1] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.1.aar\9dd464c4bc8816160e23ecd37d280757\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Temporary\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\fb27b0f108f993f88d15abccc396c80e\AndroidManifest.xml:20:5-22:41

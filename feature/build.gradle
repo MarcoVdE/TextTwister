@@ -47,6 +47,8 @@ dependencies {
     api "com.android.support:appcompat-v7:$supportLib"
     application project(':installed')
 
+    implementation "android.arch.persistence.room:runtime:$archRoomVersion"
+
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$espressoVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-intents:$espressoVersion"
