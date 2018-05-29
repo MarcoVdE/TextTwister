@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -64,12 +65,12 @@ public class TextTwisterActivity extends AppCompatActivity {
         guessableOptions.add("pepla");
 
         //Creating the database:
-        db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "texttwister-db").build();
+        db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "texttwister-db").allowMainThreadQueries().build();
 
 //        TextTwisterWord txtWord = new TextTwisterWord();
 //        txtWord.setGuessWord("apple");
 //        txtWord.setWordsList(guessableOptions);
-
+//
 //        db.textTwisterWordInterface().insertAll(txtWord);
 
         //alert dialog builder:
@@ -94,17 +95,34 @@ public class TextTwisterActivity extends AppCompatActivity {
 
                 //get all possible words from DB object
 
-//                List<TextTwisterWord> txtWordList = db.textTwisterWordInterface().getAll();
+                /*List<TextTwisterWord> txtWordList = db.textTwisterWordInterface().getAll();
 
-//                String possibilities = "";
-//                for(TextTwisterWord textWord: txtWordList) {
-//                    possibilities += textWord.getWordsList();
-//                }
+                StringBuilder possibilities = new StringBuilder();
+                for(TextTwisterWord textWord: txtWordList) {
+                    possibilities.append(textWord.getWordsList());
+                    Log.i("Possiblities: ", "Testing, this is the possibility: " + textWord.getWordsList().get(1));
+                }
+
+                try {
+                    wait(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }*/
 
                 builder.setMessage("Time over, your score was: " + score.getText()
-//                        " +\nPossibilities: " + possibilities
-                            )
-                        .show();
+//                        + " +\nPossibilities: " + possibilities.toString()
+                            );
+
+                //on listener to reset the game on okay click.
+                builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        dialog.dismiss();
+                        reset();
+                    }
+                });
+
+                builder.show();
             }
         }.start();
     }
@@ -218,6 +236,16 @@ public class TextTwisterActivity extends AppCompatActivity {
 
     private void updateScore(int addition) {
         score.setText(String.format("%s %s", getString(R.string.score), String.valueOf(Integer.valueOf(score.getText().toString().substring(7)) + addition)));
+    }
+
+    private void reset() {
+        recreate();
+        builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialog) {
+                //reset this to do nothing.
+            }
+        });
     }
 
 
